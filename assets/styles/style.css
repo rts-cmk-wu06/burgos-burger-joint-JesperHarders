@@ -1,0 +1,247 @@
+/* -- Header -- */
+
+.header__Backgroundimage {
+    background-image: url(../images/hero01.jpg);
+    background-size: 100% 100%;
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+
+.logo__container {
+    background-color: #FBB731;
+    height: fit-content;
+    margin: 95px 35px 0 108px;
+}
+
+.header__Logo {
+    width: 42px;
+    height: 42px;
+}
+
+.logo__Text {
+    margin: 100px 60px 0 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.header__Favorit {
+    background-color: #F37335;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorit__Text {
+    font-size: 30pt;
+    text-align: center;
+}
+
+.favorit__Button {
+    background-color: #FBB731;
+    padding: 32px 79px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+/* -- Navigation -- */
+
+.header__Nav {
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 112px;
+    margin: 100px 112px 0 310px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.nav__UL {
+    list-style: none;
+}
+
+.nav__Link {
+    text-decoration: none;
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+/* -- Main -- */
+
+.main {
+    width: 100%;
+    margin-top: 137px;
+}
+
+.main__Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main__Image {
+    background-image: url(../images/reklame01.png);
+    height: 428px;
+    background-size: cover;
+}
+
+.image__Heading{
+    font-size: 35pt;
+    position: relative;
+    top: 50px;
+    right: 260px;
+}
+
+.image__Text {
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+
+.span {
+    font-size: 25pt;
+}
+
+/* -- Galleri -- */
+
+figure {
+    margin: 0;
+}
+
+.gallery {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+}
+
+.gallery__Large-image {
+    width: 100%;
+}
+
+.gallery__Thumbnail {
+    width: 100%;
+    cursor: pointer;
+}
+
+.gallery__Heading {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.gallery__Text {
+    margin: 70px 0 0 40px;
+}
+
+/* -- Recomended yummies -- */
+
+.recommended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F37335;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 120px 100px 130px 100px;
+}
+
+.recommended__Container {
+    display: flex;
+}
+
+.recommended__Heading {
+    font-size: 18pt;
+}
+
+.recommended__Card {
+    width: 180px;
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommended__Icon {
+    height: 50%;
+}
+
+.recommended__Button {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 10px;
+    background-color: #FBB731;
+    border-radius: 10px;
+}
+
+/* -- Contact form -- */
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form__Ul {
+    list-style: none;
+}
+
+.form__Input {
+    width: 48%;
+    height: 30px;
+}
+
+.form__Name {
+    margin-right: 13px;
+}
+
+.form__Textarea {
+    width: 100%;
+    margin-top: 13px;
+}
+
+.form__Button {
+    background-color: #FBB731;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.footer {
+    background-color: #365368;
+    display: flex;
+    margin-top: 300px;
+}
+
+.footer__Text {
+    font-size: 30pt;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.instagram {
+    font-size: 15pt;
+}
+
+.footer__Image {
+    position: relative;
+    bottom: 200px;
+}
+
+/* -- Utillity classes -- */
+
+.font_Color__White {
+    color: #ffffff;
+}
+
+.font_Family {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

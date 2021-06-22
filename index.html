@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <script src="./scripts/main.js" defer></script>
+    <title>Burgos-Burger-Joint</title>
+</head>
+<body>
+    <header class="header__Backgroundimage">
+        <div class="logo__container">
+            <a class="header__Logo" href="#"><img src="./assets/images/burger_ikon.png" alt=""></a>
+        </div>
+        <p class="font_Color__White font_Family logo__Text">BURGOS</p>
+        <section class="header__Favorit">
+            <h1 class="favorit__Text font_Color__White font_Family">Vælg Din Favorit Yummy</h1>
+            <a href="#" class="favorit__Button font_Family">Start</a>
+        </section>
+        <nav class="header__Nav">
+            <ul class="nav__Ul">
+                <li class="nav__Link"><a class="nav__Link font_Color__White" href="#">HOME</a></li>
+                <li class="nav__Link"><a class="nav__Link font_Color__White" href="#">GALLERI</a></li>
+                <li class="nav__Link"><a class="nav__Link font_Color__White" href="#">ANBEFALEDE</a></li>
+                <li class="nav__Link"><a class="nav__Link font_Color__White" href="#">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+            <section class="main__Content main__Image">
+                <p class="image__Heading font_Color__White font_Family">-20%</p>
+                <p class="font_Color__White font_Family image__Text"> <span class="span">SOMMER- <br>TILBUD </span><br>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Numquam, dolorem tempora. </p>
+            </section>
+            <section class="gallery">
+                <section>
+                    <h2 class="font_Family">Galleri</h2>
+                    <figure>
+                        <img class="gallery__Large-image" src="./assets/images/galleri05.jpg" alt="">
+                    </figure>
+                    <figure class="grid-container">
+                        <img class="gallery__Thumbnail" src="./assets/images/galleri05.jpg" alt="">
+                        <img class="gallery__Thumbnail" src="./assets/images/galleri06.jpg" alt="">
+                        <img class="gallery__Thumbnail" src="./assets/images/galleri04.jpg" alt="">
+                    </figure>
+                </section>
+                <section class="gallery__Text">
+                    <p class="gallery__Heading font_Family">Vores YUMMY opskrift</p>
+                    <p class="font_Family">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consectetur aut laboriosam quidem quis ad repellat officiis fuga cum provident. Ab molestiae iusto a alias inventore distinctio eligendi repellat quasi? uisquam voluptas esse. Culpa a, non quos atque labore corporis eos minima velit sunt. </p>
+                    <p class="font_Family">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor culpa sequi doloribus delectus aliquam sunt consequuntur, quisquam voluptas esse. Culpa a, non quos atque labore corporis eos minima velit sunt.uisquam voluptas esse. Culpa a, non quos atque labore corporis eos minima velit sunt. </p>
+                </section>
+            </section>
+            <section class="recommended">
+                <h2 class="font_Family">Anbefalede yummies</h2>
+                <section class="recommended__Container">
+                    <div class="recommended__Card">
+                        <img class="recommended__Card" src="./assets/images/favorit01.jpg" alt="">
+                        <p class="font_Family recommended__Heading">Grilled Burger</p>
+                        <p class="font_Family">65kr.</p>
+                        <a class="font_Family recommended__Button" href="#"><img class="recommended__Icon" src="./assets/images/burger_ikon.png" alt=""> Favorit</a>
+                    </div>
+                    <div class="recommended__Card">
+                        <img class="recommended__Card" src="./assets/images/favorit02.jpg" alt="">
+                        <p class="font_Family recommended__Heading">The Firehouse</p>
+                        <p class="font_Family">70kr.</p>
+                        <a class="font_Family recommended__Button" href="#"><img class="recommended__Icon" src="./assets/images/burger_ikon.png" alt=""> Favorit</a>
+                    </div>
+                    <div class="recommended__Card">
+                        <img class="recommended__Card" src="./assets/images/favorit03.jpg" alt="">
+                        <p class="font_Family recommended__Heading">Grilled Burger</p>
+                        <p class="font_Family">90kr.</p>
+                        <a class="font_Family recommended__Button" href="#"><img class="recommended__Icon" src="./assets/images/burger_ikon.png" alt=""> Favorit</a>
+                    </div>
+                    <div class="recommended__Card">
+                        <img class="recommended__Card" src="./assets/images/favorit04.jpg" alt="">
+                        <p class="font_Family recommended__Heading">Super Vegan</p>
+                        <p class="font_Family">70kr.</p>
+                        <a class="font_Family recommended__Button" href="#"><img class="recommended__Icon" src="./assets/images/burger_ikon.png" alt=""> Favorit</a>
+                    </div>
+                </section>
+            </section>
+            <section class="form">
+                <h2 class="font_Family">KONTAKT</h2>
+                <form action="" id="form">
+                    <ul class="form__Ul">
+                        <li><input class="form__Input form__Name" type="text" id="name" placeholder="Navn"><input class="form__Input" type="text" id="email" placeholder="Email"></li>
+                        <li><textarea class="form__Textarea" cols="30" rows="10" placeholder="Skriv din besked her"></textarea></li>
+                        <li><input type="submit" class="form__Button font_Family"></li>
+                    </ul>
+                </form>
+            </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__Image" src="./assets/images/footer01.png" alt="">
+        <div>
+            <p class="font_Color__White font_Family footer__Text">FØLG OS PÅ <br> Instagram</p>
+            <p class="font_Color__White font_Family footer__Text instagram">@Burgos_YUMMIES</p>
+        </div>
+    </footer>
+</body>
+</html>
